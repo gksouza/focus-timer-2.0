@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 62.5%;
+}
+
+main {
+  /* border: 2px solid red; */
+  width: 128rem;
+  height: 72rem;
+  background-color: hsl(0, 0%, 100%);  
+}
+
+.content,
+.cards,
+.timer {
+  /* border: 2px solid green;  */
+  display: grid; 
+  position: absolute;
+  inset: 0;
+  place-content: center;
+  padding-right: 30rem;
+}
+
+.timer {
+  /* border: 2px solid black;   */
+  font-weight: 500;
+  font-size: 12.6rem;
+  line-height: 14.8rem;
+  
+  color: hsl(240, 6%, 21%);
+  word-spacing: -3.5rem;
+ }
+
+.controls,
+.sounds,
+.cards {
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 3.8rem;
+  line-height: 0;
+  cursor: pointer;   
+}
+
+.controls button,
+.sounds button {
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#hide {
+  display: none;
+}
+
+.cards {
+  /* border: 2px solid red; */
+  display: grid;
+  justify-content: end;
+  grid-template-areas:
+  "a b";
+  gap: 3.2rem;
+}
