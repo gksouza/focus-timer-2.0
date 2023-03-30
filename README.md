@@ -7,7 +7,7 @@
 
 💜 Desafio do Programa Explorer da Rocketseat - Stage 5
 
-🔗[Clique aqui para acessar](https://gksouza.github.io/gksouza/focus-timer-2.0/)
+🔗[Clique aqui para acessar](https://gksouza.github.io/focus-timer-2.0/)
 
 ## 🔰 Tecnologias
 
