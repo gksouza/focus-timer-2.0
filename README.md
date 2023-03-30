@@ -1,3 +1,4 @@
+👷🏻‍♀️ (em progresso)
 # Focus Timer
 
 > Trilha Explorer 🚀
@@ -17,8 +18,7 @@
 
 ## 📚 Meu aprendizado
 
-Através da NLW adquiri maiores e fascinantes conhecimentos sobre o HTML e CSS.  
-Com uma didática leve e objetiva conheci brevemente sobre o Git e Github.   
+Nesse desafio tenho adquirido significativos conhecimentos em CSS avançado e colocado a mão na massa com o JavaScript.
 
 ## 🤸‍♀️ Contato
 
