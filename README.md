@@ -1,4 +1,4 @@
-👷🏻‍♀️ (em progresso)
+👷🏻‍♀️ (em construção)
 # Focus Timer
 
 > Trilha Explorer 🚀
