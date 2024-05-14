@@ -8,6 +8,8 @@
 :root {
   font-family: 'Roboto', 'sans-serif';
   font-size: 62.5%;
+
+  --text-color: hsl(var(--hue), 40%, 98%);
 }
 
 main {
@@ -49,7 +51,8 @@ main {
 }
 
 .controls button,
-.sounds button {
+.sounds button,
+#toggle-mode {
   border: none;
   appearance: none;
   background-color: transparent;
@@ -60,11 +63,30 @@ main {
   display: none;
 }
 
-.cards {
-  /* border: 2px solid red; */
+.cards {  
   display: grid;
   justify-content: end;
   grid-template-areas:
   "a b";
   gap: 3.2rem;
+}
+
+#toggle-mode {  
+  position: absolute;
+  right: 3.2rem;
+  top: 3.2rem;
+  font-size: 3.2rem;
+  line-height: 0;
+  
+  color: var(--text-color);
+}
+
+.sr-only {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+
+  margin: -1px;
+  appearance: none;
 }
