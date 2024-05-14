@@ -3,7 +3,7 @@
 
 > Trilha Explorer 🚀
 
-![preview](./.github/preview_focus.png)
+![preview](./assets/favicon.svg)
 
 💜 Desafio do Programa Explorer da Rocketseat - Stage 5
 
