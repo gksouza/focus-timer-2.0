@@ -1,4 +1,5 @@
-import { timerMinutes, timerSeconds } from "./elements.js"
+import state from './state.js'
+import * as elements from "./elements.js"
 import Sounds from "./sounds.js"
 
 export default function Timer({
@@ -8,7 +9,7 @@ export default function Timer({
 }) {
 
   let timerTimeOut
-  let minutes = Number(minutesDisplay.textContent)
+  let minutes = Number(elements.minutesDisplay.textContent)
 
   function updateDisplay(newMinutes, seconds) {
     newMinutes = newMinutes === undefined ? minutes : newMinutes

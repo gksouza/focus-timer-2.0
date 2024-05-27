@@ -9,7 +9,18 @@
   font-family: 'Roboto', 'sans-serif';
   font-size: 62.5%;
 
-  --text-color: hsl(var(--hue), 40%, 98%);
+  --text-color: hsl(var(--hue), 40%, 98%);  
+}
+
+html.light {
+  --text-color: hsl(var(--hue), 5%, 7%);
+  --bg-color: hsl(var(--hue), 40%, 98%);  
+  --controls-bg-color: hsl(var(--hue), 0%, 14%);
+}
+
+html.light .ph-sun,
+html:not(.light) .ph-moon {
+  display: none;
 }
 
 main {
